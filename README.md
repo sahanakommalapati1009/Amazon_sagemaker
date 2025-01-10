@@ -20,3 +20,37 @@ This repository contains an end-to-end machine learning project for predicting t
 * Evaluated model performance on test data, calculating key metrics like classification accuracy, true positive rate, and false positive rate.
 * Generated a confusion matrix to visualize the model's prediction performance.
 
+## Project Workflow
+### 1. Data Preparation:
+* Downloaded the dataset and stored it locally.
+* Preprocessed the data, including splitting into training and testing datasets.
+* Uploaded the datasets to an S3 bucket.
+### 2. Model Building:
+* Used SageMaker's built-in XGBoost algorithm.
+* Configured hyperparameters such as max_depth, eta, gamma, and subsample.
+* Trained the model using managed spot training to optimize cost.
+### 3. Model Deployment:
+* Created an endpoint for real-time predictions using SageMaker's deployment feature.
+* Configured serialization and deserialization for data input/output.
+### 4. Evaluation:
+* Assessed model predictions on test data.
+* Visualized classification performance using a confusion matrix and accuracy metrics.
+
+## Technologies and Tools
+* Amazon SageMaker: For model training, deployment, and endpoint creation.
+* Amazon S3: For dataset storage and management.
+* XGBoost: Used for binary classification.
+* Python Libraries:
+  - pandas, numpy: For data manipulation.
+  - boto3: For AWS S3 integration.
+  - sagemaker: For managing SageMaker training and deployment.
+
+## Key Results
+* Overall Classification Accuracy: 89.7%
+* Confusion Matrix:
+  True Negatives: 10,785
+  False Positives: 151
+  False Negatives: 1,124
+  True Positives: 297
+
+
