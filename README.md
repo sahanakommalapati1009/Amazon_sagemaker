@@ -53,4 +53,12 @@ This repository contains an end-to-end machine learning project for predicting t
   - False Negatives: 1,124
   - True Positives: 297
 
+## Usage
+### 1. Ensure AWS and Python Are Set Up:
+* Make sure you have an AWS account and the AWS CLI is configured on your machine.
+* Install Python and the required dependencies.
+### 2. Install Dependencies:
+* pip install pandas numpy boto3 sagemaker matplotlib scikit-learn
+### 3. Run the Python Script:
+* python BankMarketingPrediction.py
 
