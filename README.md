@@ -58,7 +58,7 @@ This repository contains an end-to-end machine learning project for predicting t
 * Make sure you have an AWS account and the AWS CLI is configured on your machine.
 * Install Python and the required dependencies.
 ### 2. Install Dependencies:
-* pip install pandas numpy boto3 sagemaker matplotlib scikit-learn
+pip install pandas numpy boto3 sagemaker matplotlib scikit-learn
 ### 3. Run the Python Script:
-* python BankMarketingPrediction.py
+python BankMarketingPrediction.py
 
