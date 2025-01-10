@@ -48,9 +48,9 @@ This repository contains an end-to-end machine learning project for predicting t
 ## Key Results
 * Overall Classification Accuracy: 89.7%
 * Confusion Matrix:
-  True Negatives: 10,785
-  False Positives: 151
-  False Negatives: 1,124
-  True Positives: 297
+  - True Negatives: 10,785
+  - False Positives: 151
+  - False Negatives: 1,124
+  - True Positives: 297
 
 
